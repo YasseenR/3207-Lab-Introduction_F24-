@@ -12,17 +12,3 @@ char* rand_string_alloc(size_t size)
      }
      return s;
 }
-
-int main () {
-
-    srand( (unsigned)time(NULL) );
-
-    for(int a=0; a < 7; a++) {
-        putchar(randchar() );
-    }
-
-    putchar('\n');
-
-    return(0);
-
-}

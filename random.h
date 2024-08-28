@@ -1,5 +1,5 @@
 #include <stdlib.h>
 
-char randchar() {
+char randstring(char s, size_t size ) {
 	return (char)('A' + rand()%26);
 }
